@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnw4x5x2xjbj0"
-path="res://.godot/imported/flappy-bird.apple-touch-icon.png-56f72e115e0c8efbfea56c1190cf5326.ctex"
+uid="uid://b8j3orpp43gxd"
+path="res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://root/flappy-bird.apple-touch-icon.png"
-dest_files=["res://.godot/imported/flappy-bird.apple-touch-icon.png-56f72e115e0c8efbfea56c1190cf5326.ctex"]
+source_file="res://docs/index.apple-touch-icon.png"
+dest_files=["res://.godot/imported/index.apple-touch-icon.png-b21a756d869f84af832970a74d8371bc.ctex"]
 
 [params]
 

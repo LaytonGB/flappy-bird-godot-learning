@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4xflw6vm3aj3"
-path="res://.godot/imported/flappy-bird.icon.png-4066b130553d810cf2e93302f7450620.ctex"
+uid="uid://d1agbjjtdbe6g"
+path="res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://root/flappy-bird.icon.png"
-dest_files=["res://.godot/imported/flappy-bird.icon.png-4066b130553d810cf2e93302f7450620.ctex"]
+source_file="res://docs/index.png"
+dest_files=["res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex"]
 
 [params]
 
