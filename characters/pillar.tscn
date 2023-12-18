@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://ja4w56xvif2m"]
+
+[ext_resource type="Texture2D" uid="uid://c4yasyhujhhmp" path="res://icon.svg" id="1_lbuk8"]
+[ext_resource type="Script" path="res://characters/pillar.gd" id="1_vbiuv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lab5o"]
+size = Vector2(48, 584)
+
+[node name="Pillar" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+script = ExtResource("1_vbiuv")
+
+[node name="Top_Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(-5.96046e-08, 8.99998)
+scale = Vector2(0.375, 4.67188)
+texture = ExtResource("1_lbuk8")
+
+[node name="Top_CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 10)
+shape = SubResource("RectangleShape2D_lab5o")
+
+[node name="Bottom_Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(-5.96046e-08, 791.5)
+scale = Vector2(0.375, 4.66406)
+texture = ExtResource("1_lbuk8")
+
+[node name="Bottom_CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 790)
+shape = SubResource("RectangleShape2D_lab5o")

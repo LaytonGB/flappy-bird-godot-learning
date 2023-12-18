@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://yjxi2sh4k7a0"]
+
+[ext_resource type="Script" path="res://characters/bird_emitter.gd" id="1_6k2w4"]
+[ext_resource type="Script" path="res://characters/bird.gd" id="1_qasuc"]
+[ext_resource type="Texture2D" uid="uid://c4yasyhujhhmp" path="res://icon.svg" id="2_gsvr0"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kc5gl"]
+radius = 28.0
+
+[node name="Bird" type="Node2D"]
+script = ExtResource("1_6k2w4")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_qasuc")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.4375, 0.4375)
+texture = ExtResource("2_gsvr0")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_kc5gl")
+
+[connection signal="died" from="CharacterBody2D" to="." method="_on_character_body_2d_died"]

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://ce7e4r6xwetfb"]
+
+[ext_resource type="Script" path="res://scenes/playing.gd" id="1_3mgjm"]
+[ext_resource type="PackedScene" uid="uid://yjxi2sh4k7a0" path="res://characters/bird.tscn" id="1_hdhmj"]
+
+[node name="Playing" type="Node2D"]
+script = ExtResource("1_3mgjm")
+
+[node name="Bird" parent="." instance=ExtResource("1_hdhmj")]
+position = Vector2(237, 386)
+
+[connection signal="game_over" from="Bird" to="." method="_on_bird_game_over"]
