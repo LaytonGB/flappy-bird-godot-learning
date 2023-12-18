@@ -1,4 +1,4 @@
 # Godot 4+ specific ignores
 .godot/
-.\flappy-bird.console.exe
-.\flappy-bird.exe
+flappy-bird.console.exe
+flappy-bird.exe
